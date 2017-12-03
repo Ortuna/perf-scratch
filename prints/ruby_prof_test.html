@@ -1,0 +1,446 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <style media="all" type="text/css">
+    table {
+      border-collapse: collapse;
+      border: 1px solid #CCC;
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+      font-size: 9pt;
+      line-height: normal;
+      width: 100%;
+    }
+
+    th {
+      text-align: center;
+      border-top: 1px solid #FB7A31;
+      border-bottom: 1px solid #FB7A31;
+      background: #FFC;
+      padding: 0.3em;
+      border-left: 1px solid silver;
+    }
+
+    tr.break td {
+      border: 0;
+      border-top: 1px solid #FB7A31;
+      padding: 0;
+      margin: 0;
+    }
+
+    tr.method td {
+      font-weight: bold;
+    }
+
+    td {
+      padding: 0.3em;
+    }
+
+    td:first-child {
+      width: 190px;
+      }
+
+    td {
+      border-left: 1px solid #CCC;
+      text-align: center;
+    }
+
+    .method_name {
+      text-align: left;
+    }
+
+    tfoot td {
+      text-align: left;
+    }
+  </style>
+  </head>
+  <body>
+    <h1>Profile Report: wall_time</h1>
+    <!-- Threads Table -->
+    <table>
+      <tr>
+        <th>Thread ID</th>
+        <th>Fiber ID</th>
+        <th>Total Time</th>
+      </tr>
+
+      <tr>
+        <td>47295522544640</td>
+        <td><a href="#47295524226640">47295524226640</a></td>
+        <td>0.00037598609924316406</td>
+      </tr>
+
+    </table>
+    <!-- Methods Tables -->
+
+      <h2><a name="47295524226640">Thread 47295522544640, Fiber: 47295524226640</a></h2>
+      <table>
+        <thead>
+          <tr>
+            <th>%Total</th>
+            <th>%Self</th>
+            <th>Total</th>
+            <th>Self</th>
+            <th>Wait</th>
+            <th>Child</th>
+            <th>Calls</th>
+            <th class="method_name">Name</th>
+            <th>Line</th>
+          </tr>
+        </thead>
+        <tbody>
+
+               <!-- Parents -->
+
+               <tr class="method">
+                 <td>100.00%</td>
+                 <td>58.47%</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>1</td>
+                 <td class="method_name">
+                   <a name="Global_[No method]_47295524226640">
+                      Global#[No method]
+                   </a>
+                 </td>
+                 <td><a href="file:///home/ortuna/src/me/perf/ruby_prof_test.rb#6" title="/home/ortuna/src/me/perf/ruby_prof_test.rb:6">6</a></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#_Class__Date__parse_47295524226640">&lt;Class::Date&gt;#parse</a></td>
+                   <td><a href="file:///home/ortuna/src/me/perf/ruby_prof_test.rb#6" title="/home/ortuna/src/me/perf/ruby_prof_test.rb:6">6</a></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#Global_[No method]_47295524226640">Global#[No method]</a></td>
+                   <td><a href="file:///home/ortuna/src/me/perf/ruby_prof_test.rb#6" title="/home/ortuna/src/me/perf/ruby_prof_test.rb:6">6</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>41.53%</td>
+                 <td>37.10%</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>1</td>
+                 <td class="method_name">
+                   <a name="_Class__Date__parse_47295524226640">
+                      &lt;Class::Date&gt;#parse
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#String_gsub!_47295524226640">String#gsub!</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>2/2</td>
+                   <td class="method_name"><a href="#Regexp_match_47295524226640">Regexp#match</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#MatchData_begin_47295524226640">MatchData#begin</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#String_[]__47295524226640">String#[]=</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#Integer_div_47295524226640">Integer#div</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#MatchData_end_47295524226640">MatchData#end</a></td>
+                   <td></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#_Class__Date__parse_47295524226640">&lt;Class::Date&gt;#parse</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>1.59%</td>
+                 <td>1.59%</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>1</td>
+                 <td class="method_name">
+                   <a name="String_gsub!_47295524226640">
+                      String#gsub!
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>2/2</td>
+                   <td class="method_name"><a href="#_Class__Date__parse_47295524226640">&lt;Class::Date&gt;#parse</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>1.33%</td>
+                 <td>1.33%</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>2</td>
+                 <td class="method_name">
+                   <a name="Regexp_match_47295524226640">
+                      Regexp#match
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#_Class__Date__parse_47295524226640">&lt;Class::Date&gt;#parse</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.76%</td>
+                 <td>0.76%</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>1</td>
+                 <td class="method_name">
+                   <a name="MatchData_begin_47295524226640">
+                      MatchData#begin
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#_Class__Date__parse_47295524226640">&lt;Class::Date&gt;#parse</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.51%</td>
+                 <td>0.51%</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>1</td>
+                 <td class="method_name">
+                   <a name="String_[]__47295524226640">
+                      String#[]=
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#_Class__Date__parse_47295524226640">&lt;Class::Date&gt;#parse</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.25%</td>
+                 <td>0.25%</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>1</td>
+                 <td class="method_name">
+                   <a name="Integer_div_47295524226640">
+                      Integer#div
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#_Class__Date__parse_47295524226640">&lt;Class::Date&gt;#parse</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.00%</td>
+                 <td>0.00%</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>1</td>
+                 <td class="method_name">
+                   <a name="MatchData_end_47295524226640">
+                      MatchData#end
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="9">* indicates recursively called methods</td>
+          </tr>
+        </tfoot>
+      </table>
+
+  </body>
+</html>
